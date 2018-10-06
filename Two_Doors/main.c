@@ -16,8 +16,8 @@ int main(int argc, const char * argv[]) {
     printf("Welcome to Two doors.\n");
         
     printf("Would you like to play? (y/n): ");
-    scanf("%s", &play);
-        
+    scanf("%c", &play);
+    
         while (play == 'y') {
             printf("\nYou are a prisoner in a room with 2 doors and 2 guards.\n");
             printf("One of the doors will guide you to freedom and behind the other is a hangman --you don't know which is which.\n");
@@ -43,7 +43,7 @@ int main(int argc, const char * argv[]) {
                 default:
                     break;
             }
-            printf("Would you like to play? (y/n): ");
+            printf("Would you like to play again? (y/n): ");
             scanf("%s", &play);
         
         }
