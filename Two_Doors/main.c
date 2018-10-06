@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
     printf("Welcome to Two doors.\n");
         
     printf("Would you like to play? (y/n): ");
-    scanf("%c", &play);
+    scanf("%s", &play);
     
         while (play == 'y') {
             printf("\nYou are a prisoner in a room with 2 doors and 2 guards.\n");
